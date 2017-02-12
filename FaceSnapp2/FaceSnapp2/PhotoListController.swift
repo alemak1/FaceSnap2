@@ -23,7 +23,11 @@ class PhotoListController: UIViewController {
         return button
     }()
     
-    
+    lazy var mediaPickerManager: MediaPickerManager = {
+        let manager = MediaPickerManager(presentingViewController: self)
+        
+        return manager
+    }()
     
     //MARK: Image Picker Controller
     
