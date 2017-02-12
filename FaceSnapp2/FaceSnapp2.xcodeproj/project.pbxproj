@@ -12,6 +12,7 @@
 		BD29991F1E5087F9004F6B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD29991E1E5087F9004F6B21 /* Assets.xcassets */; };
 		BD2999221E5087F9004F6B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2999201E5087F9004F6B21 /* LaunchScreen.storyboard */; };
 		BD29992A1E509829004F6B21 /* MediaPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2999291E509829004F6B21 /* MediaPickerManager.swift */; };
+		BD2999301E50CA22004F6B21 /* PhotoFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29992F1E50CA22004F6B21 /* PhotoFilterController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BD2999211E5087F9004F6B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD2999231E5087F9004F6B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD2999291E509829004F6B21 /* MediaPickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPickerManager.swift; sourceTree = "<group>"; };
+		BD29992F1E50CA22004F6B21 /* PhotoFilterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoFilterController.swift; path = ../PhotoFilterController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,47 @@
 		BD2999161E5087F9004F6B21 /* FaceSnapp2 */ = {
 			isa = PBXGroup;
 			children = (
+				BD29992E1E50C9D0004F6B21 /* Model */,
+				BD29992D1E50C9CB004F6B21 /* View */,
+				BD29992C1E50C9C4004F6B21 /* Controllers */,
+				BD29992B1E50C9BE004F6B21 /* Helpers */,
 				BD2999171E5087F9004F6B21 /* AppDelegate.swift */,
-				BD2999191E5087F9004F6B21 /* PhotoListController.swift */,
-				BD2999291E509829004F6B21 /* MediaPickerManager.swift */,
 				BD29991E1E5087F9004F6B21 /* Assets.xcassets */,
 				BD2999201E5087F9004F6B21 /* LaunchScreen.storyboard */,
 				BD2999231E5087F9004F6B21 /* Info.plist */,
 			);
 			path = FaceSnapp2;
+			sourceTree = "<group>";
+		};
+		BD29992B1E50C9BE004F6B21 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BD2999291E509829004F6B21 /* MediaPickerManager.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		BD29992C1E50C9C4004F6B21 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD29992F1E50CA22004F6B21 /* PhotoFilterController.swift */,
+				BD2999191E5087F9004F6B21 /* PhotoListController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BD29992D1E50C9CB004F6B21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BD29992E1E50C9D0004F6B21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +172,7 @@
 			files = (
 				BD29992A1E509829004F6B21 /* MediaPickerManager.swift in Sources */,
 				BD29991A1E5087F9004F6B21 /* PhotoListController.swift in Sources */,
+				BD2999301E50CA22004F6B21 /* PhotoFilterController.swift in Sources */,
 				BD2999181E5087F9004F6B21 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
