@@ -11,6 +11,7 @@
 		BD29991A1E5087F9004F6B21 /* PhotoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2999191E5087F9004F6B21 /* PhotoListController.swift */; };
 		BD29991F1E5087F9004F6B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD29991E1E5087F9004F6B21 /* Assets.xcassets */; };
 		BD2999221E5087F9004F6B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2999201E5087F9004F6B21 /* LaunchScreen.storyboard */; };
+		BD29992A1E509829004F6B21 /* MediaPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2999291E509829004F6B21 /* MediaPickerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BD29991E1E5087F9004F6B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD2999211E5087F9004F6B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD2999231E5087F9004F6B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2999291E509829004F6B21 /* MediaPickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPickerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				BD2999171E5087F9004F6B21 /* AppDelegate.swift */,
 				BD2999191E5087F9004F6B21 /* PhotoListController.swift */,
+				BD2999291E509829004F6B21 /* MediaPickerManager.swift */,
 				BD29991E1E5087F9004F6B21 /* Assets.xcassets */,
 				BD2999201E5087F9004F6B21 /* LaunchScreen.storyboard */,
 				BD2999231E5087F9004F6B21 /* Info.plist */,
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD29992A1E509829004F6B21 /* MediaPickerManager.swift in Sources */,
 				BD29991A1E5087F9004F6B21 /* PhotoListController.swift in Sources */,
 				BD2999181E5087F9004F6B21 /* AppDelegate.swift in Sources */,
 			);
