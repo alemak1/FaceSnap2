@@ -56,7 +56,7 @@ class PhotoListController: UIViewController {
 
     
     @objc private func presentImagePickerController(){
-        
+        mediaPickerManager.presentImagePickerController(animatedStatus: true)
     }
 
 
