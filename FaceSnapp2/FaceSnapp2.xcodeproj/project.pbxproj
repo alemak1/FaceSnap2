@@ -13,6 +13,7 @@
 		BD2999221E5087F9004F6B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2999201E5087F9004F6B21 /* LaunchScreen.storyboard */; };
 		BD29992A1E509829004F6B21 /* MediaPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2999291E509829004F6B21 /* MediaPickerManager.swift */; };
 		BD2999301E50CA22004F6B21 /* PhotoFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29992F1E50CA22004F6B21 /* PhotoFilterController.swift */; };
+		BD79BD111E51575C00EF9C74 /* FilteredImageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD79BD101E51575C00EF9C74 /* FilteredImageBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BD2999231E5087F9004F6B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD2999291E509829004F6B21 /* MediaPickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPickerManager.swift; sourceTree = "<group>"; };
 		BD29992F1E50CA22004F6B21 /* PhotoFilterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoFilterController.swift; path = ../PhotoFilterController.swift; sourceTree = "<group>"; };
+		BD79BD101E51575C00EF9C74 /* FilteredImageBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredImageBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		BD29992B1E50C9BE004F6B21 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				BD79BD101E51575C00EF9C74 /* FilteredImageBuilder.swift */,
 				BD2999291E509829004F6B21 /* MediaPickerManager.swift */,
 			);
 			name = Helpers;
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD79BD111E51575C00EF9C74 /* FilteredImageBuilder.swift in Sources */,
 				BD29992A1E509829004F6B21 /* MediaPickerManager.swift in Sources */,
 				BD29991A1E5087F9004F6B21 /* PhotoListController.swift in Sources */,
 				BD2999301E50CA22004F6B21 /* PhotoFilterController.swift in Sources */,
@@ -327,6 +331,7 @@
 				BD2999281E5087F9004F6B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
