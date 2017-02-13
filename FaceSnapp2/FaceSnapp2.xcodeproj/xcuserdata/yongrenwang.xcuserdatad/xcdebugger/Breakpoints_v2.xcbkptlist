@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FaceSnapp2/FilteredImageBuilder.swift"
-            timestampString = "508648773.696652"
+            timestampString = "508649656.240148"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "defaultFilters()"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "imageWithDefaultFilters()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
