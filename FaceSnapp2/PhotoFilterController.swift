@@ -38,6 +38,11 @@ class PhotoFilterController: UIViewController {
         return collectionView
     }()
     
+    private lazy var filteredImages: [UIImage] = {
+        let filteredImageBuilder = FilteredImageBuilder(image: self.mainImage)
+        return filteredImageBuilder.imageWithDefaultFilters()
+    }()
+    
     init(image: UIImage){
         self.mainImage = image
         self.photoImageView.image = mainImage
