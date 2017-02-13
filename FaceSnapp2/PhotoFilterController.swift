@@ -71,6 +71,14 @@ class PhotoFilterController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+//        let cancelButton = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(PhotoListController.dismissPhotoFilterController))
+//        
+//        navigationItem.leftBarButtonItem = cancelButton
+//        
+//        let nextButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(PhotoListController.presentMetaDataController))
+//        
+//        navigationItem.rightBarButtonItem = nextButton
     }
 
 
@@ -143,5 +151,17 @@ extension PhotoFilterController: UICollectionViewDelegate{
         let ciImage = filteredImages[indexPath.row]
         let cgImage = context.createCGImage(ciImage, from: ciImage.extent)
         mainImage = UIImage(cgImage: cgImage!)
+    }
+}
+
+//MARK: Navigation
+
+extension PhotoFilterController{
+    @objc private func dismissPhotoFilterController(){
+        dismiss(animated: true, completion: nil)
+    }
+    
+    @objc private func presentMetaDataController(){
+        
     }
 }
