@@ -14,6 +14,7 @@
 		BD29992A1E509829004F6B21 /* MediaPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2999291E509829004F6B21 /* MediaPickerManager.swift */; };
 		BD2999301E50CA22004F6B21 /* PhotoFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29992F1E50CA22004F6B21 /* PhotoFilterController.swift */; };
 		BD79BD111E51575C00EF9C74 /* FilteredImageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD79BD101E51575C00EF9C74 /* FilteredImageBuilder.swift */; };
+		BD79BD131E51646B00EF9C74 /* FilteredImageCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD79BD121E51646B00EF9C74 /* FilteredImageCellCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BD2999291E509829004F6B21 /* MediaPickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPickerManager.swift; sourceTree = "<group>"; };
 		BD29992F1E50CA22004F6B21 /* PhotoFilterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoFilterController.swift; path = ../PhotoFilterController.swift; sourceTree = "<group>"; };
 		BD79BD101E51575C00EF9C74 /* FilteredImageBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredImageBuilder.swift; sourceTree = "<group>"; };
+		BD79BD121E51646B00EF9C74 /* FilteredImageCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredImageCellCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				BD79BD101E51575C00EF9C74 /* FilteredImageBuilder.swift */,
+				BD79BD121E51646B00EF9C74 /* FilteredImageCellCollectionViewCell.swift */,
 				BD2999291E509829004F6B21 /* MediaPickerManager.swift */,
 			);
 			name = Helpers;
@@ -176,6 +179,7 @@
 				BD79BD111E51575C00EF9C74 /* FilteredImageBuilder.swift in Sources */,
 				BD29992A1E509829004F6B21 /* MediaPickerManager.swift in Sources */,
 				BD29991A1E5087F9004F6B21 /* PhotoListController.swift in Sources */,
+				BD79BD131E51646B00EF9C74 /* FilteredImageCellCollectionViewCell.swift in Sources */,
 				BD2999301E50CA22004F6B21 /* PhotoFilterController.swift in Sources */,
 				BD2999181E5087F9004F6B21 /* AppDelegate.swift in Sources */,
 			);
